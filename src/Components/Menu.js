@@ -49,7 +49,7 @@ const Menu = ({setInitViewers, setKActived, setName, setImage, setMenu}) => {
                 </p>
                 <p>
                     <label htmlFor="Photo">Photo :</label>
-                    <input type="file" id="Photo" onChange={handleImageChange} required />
+                    <input type="file" id="Photo" onChange={handleImageChange} accept="image/png, image/gif, image/jpeg" required />
                 </p>
                 <button type="submit" onClick={(e) => onSubmit(e)}>Start Live</button>
             </form>
