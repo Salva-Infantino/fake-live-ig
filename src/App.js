@@ -27,6 +27,7 @@ function App() {
   const [menu, setMenu] = useState(true);
 
   useEffect(() => {
+    !menu &&
     (async function () {
       try {
         const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: facingMode } });
@@ -37,7 +38,7 @@ function App() {
         console.error('Erreur lors de l\'accès à la caméra :', error);
       }
     })();
-  }, [facingMode]);
+  }, [menu, facingMode]);
 
   return (
     <div>
