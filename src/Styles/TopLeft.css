@@ -1,0 +1,14 @@
+#top-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+#top-left span {
+    color: white;
+    margin: 0 .5rem;
+}

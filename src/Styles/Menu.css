@@ -1,0 +1,37 @@
+.Menu {
+    background-color: white;
+    padding: 3rem 1rem;
+    margin: 5rem auto 0;
+    width: 80%;
+    border-radius: .5rem;
+}
+
+.Menu h2 {
+    margin-bottom: 1rem;
+}
+
+.Menu form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Menu form input {
+    font-size: 1rem;
+}
+
+.Menu form p {
+    margin: 1rem 0;
+}
+
+.Menu form p label {
+    margin-right: 1rem;
+}
+
+.Menu button {
+    border: 0;
+    outline: 0;
+    padding: .5rem 1rem;
+    background-color: royalblue;
+    color: white;
+    margin-top: 3rem;
+}

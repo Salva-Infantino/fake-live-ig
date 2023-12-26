@@ -1,0 +1,27 @@
+.fxdc {
+    flex-direction: column;
+}
+
+.pl5 {
+    padding: 0 0 0 .5rem !important;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.fwl {
+    font-weight: lighter;
+}
+
+.tac {
+    text-align: center;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.mt1r {
+    margin-top: 1rem;
+}

@@ -1,0 +1,108 @@
+#top-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    z-index: 2;
+}
+
+#top-right div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem;
+}
+
+#top-right div svg {
+    margin: 0.5rem;
+}
+
+#top-right div small svg {
+    margin: 0 .25rem 0 0;
+}
+
+#top-right div small {
+    color: white;
+    padding: 0.5rem;
+    margin: 0.25rem;
+    text-align: center;
+    border-radius: .25rem;
+    display: flex;
+    align-items: center;
+}
+
+#live {
+    background-color: #D80056;
+}
+
+#viewers {
+    background-color: #4A4844;
+}
+
+.camoff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1 !important;
+    background-color: #595959;
+}
+
+.camoff .bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    filter: blur(20px);
+    opacity: .6;
+}
+
+.camoff img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.disableVideo {
+    opacity: 0;
+}
+
+.closing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(7px);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.closing div {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closing div button {
+    padding: 1rem;
+    color: white;
+    background-color: red;
+    border-radius: 0.2rem;
+    outline: none;
+    border: none;
+    width: 9rem;
+    margin: 1rem 0.25rem;
+    font-weight: bold;
+}
+
+.closing div button+button {
+    background-color: grey;
+}
