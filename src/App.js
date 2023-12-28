@@ -18,7 +18,7 @@ function App() {
   const [addPeople, setAddPeople] = useState(false);
   const [question, setQuestion] = useState(false);
 
-  const [initViewers, setInitViewers] = useState(12);
+  const [initViewers, setInitViewers] = useState(0);
   const [viewers, setViewers] = useState(initViewers);
   const [kActived, setKActived] = useState(true);
 
